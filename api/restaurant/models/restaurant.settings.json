@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "restaurants",
+  "collectionName": "songs",
   "info": {
     "name": "Song",
     "description": ""
