@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/restaurants",
-      "handler": "restaurant.find",
+      "path": "/songs",
+      "handler": "song.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/restaurants/count",
-      "handler": "restaurant.count",
+      "path": "/songs/count",
+      "handler": "song.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/restaurants/:id",
-      "handler": "restaurant.findOne",
+      "path": "/songs/:id",
+      "handler": "song.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/restaurants",
-      "handler": "restaurant.create",
+      "path": "/songs",
+      "handler": "song.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/restaurants/:id",
-      "handler": "restaurant.update",
+      "path": "/songs/:id",
+      "handler": "song.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/restaurants/:id",
-      "handler": "restaurant.delete",
+      "path": "/songs/:id",
+      "handler": "song.delete",
       "config": {
         "policies": []
       }
