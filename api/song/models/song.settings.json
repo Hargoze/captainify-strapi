@@ -35,6 +35,9 @@
     },
     "author": {
       "model": "author"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
