@@ -25,6 +25,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "songs": {
+      "collection": "song",
+      "via": "author_songs"
     }
   }
 }

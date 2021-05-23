@@ -38,6 +38,10 @@
     },
     "link": {
       "type": "string"
+    },
+    "author_songs": {
+      "via": "songs",
+      "model": "author"
     }
   }
 }
