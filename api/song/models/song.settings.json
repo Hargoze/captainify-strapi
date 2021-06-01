@@ -33,15 +33,12 @@
       "plugin": "upload",
       "required": false
     },
-    "author": {
-      "model": "author"
-    },
     "link": {
       "type": "string"
     },
-    "author_songs": {
-      "via": "songs",
-      "model": "author"
+    "author": {
+      "model": "author",
+      "via": "songs"
     }
   }
 }

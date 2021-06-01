@@ -27,8 +27,8 @@
       "required": false
     },
     "songs": {
-      "collection": "song",
-      "via": "author_songs"
+      "via": "author",
+      "collection": "song"
     }
   }
 }
